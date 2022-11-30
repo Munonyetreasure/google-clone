@@ -1,0 +1,89 @@
+@font-face {
+    font-family: customfonts;
+    src: url(ProductSansBold.ttf);
+}
+@font-face {
+    font-family: "product_sans";
+    src: url(./ProductSansItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh ;
+}
+section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+section header ul li button {
+    background-color: rgb(25, 157, 233);
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    align-items: center;
+}
+input {
+    width: 15cm;
+    border-radius: 20px;
+    height: 7vh;
+    text-align: center;
+    font-weight: bold;
+
+}
+    
+
+.google {
+        color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 2cm;
+    
+}
+input {
+    font-size: medium;
+    outline: none;
+}
+span{
+  font-family:"product_sans";
+}
+
+.google img {
+    height: 20px;
+    position: relative;
+    
+}
+div input img {
+    
+}
